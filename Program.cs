@@ -9,16 +9,15 @@ namespace Method_01
     class Program
     {
         static void Main(string[] args)
-        {            
-            Console.WriteLine(Sqr(2));
+        {
+            int sqr = Sqr(2);
+            Console.WriteLine(sqr);
 
             int Sqr(int x)
             {
                 int result = x * x;
                 return result;
             }
-
         }
-
     }
 }
